@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Probabilistic ML Lab</title>
-    <link>/tags/</link>
+    <link>https://woodyshin.github.io/pmll-homepage/tags/</link>
     <description>Recent content in Tags on Probabilistic ML Lab</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 04 Apr 2022 05:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://woodyshin.github.io/pmll-homepage/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nextjs</title>
-      <link>/tags/nextjs/</link>
+      <link>https://woodyshin.github.io/pmll-homepage/tags/nextjs/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>/tags/nextjs/</guid>
+      <guid>https://woodyshin.github.io/pmll-homepage/tags/nextjs/</guid>
       <description></description>
     </item>
     <item>
       <title>Silicon</title>
-      <link>/tags/silicon/</link>
+      <link>https://woodyshin.github.io/pmll-homepage/tags/silicon/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>/tags/silicon/</guid>
+      <guid>https://woodyshin.github.io/pmll-homepage/tags/silicon/</guid>
       <description></description>
     </item>
     <item>
       <title>Software</title>
-      <link>/tags/software/</link>
+      <link>https://woodyshin.github.io/pmll-homepage/tags/software/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>/tags/software/</guid>
+      <guid>https://woodyshin.github.io/pmll-homepage/tags/software/</guid>
       <description></description>
     </item>
     <item>
       <title>Tailwind</title>
-      <link>/tags/tailwind/</link>
+      <link>https://woodyshin.github.io/pmll-homepage/tags/tailwind/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>/tags/tailwind/</guid>
+      <guid>https://woodyshin.github.io/pmll-homepage/tags/tailwind/</guid>
       <description></description>
     </item>
     <item>
       <title>Technology</title>
-      <link>/tags/technology/</link>
+      <link>https://woodyshin.github.io/pmll-homepage/tags/technology/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>/tags/technology/</guid>
+      <guid>https://woodyshin.github.io/pmll-homepage/tags/technology/</guid>
       <description></description>
     </item>
   </channel>
