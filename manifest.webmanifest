@@ -1,0 +1,56 @@
+{
+  "name": "Probabilistic ML Lab",
+  "short_name": "Probabilistic ML Lab",
+  "lang": "en-us",
+  "display": "fullscreen",
+  "orientation" : "portrait",
+  "start_url": "/?utm_source=web_app_manifest",
+  "background_color": "#fff",
+  "theme_color": "#000",
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  "icons": [
+    {
+      "src": "/images/favicon_hu_355abd545084fd9b.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon_hu_d1d713ef817c32d8.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon_hu_e316b6df09172986.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon_hu_641518a716cd6609.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon_hu_89434b1617910e65.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/favicon_hu_859fefb6caaf3faf.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+  
+  
+}
