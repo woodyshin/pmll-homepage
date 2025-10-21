@@ -1,0 +1,59 @@
+{{ define "main" }}
+  {{ with .Params.banner }}
+    <div class="relative">
+      <div>
+        {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "w-full" "DisplayXL" "800x" ) }}
+      </div>
+      <div class="absolute inset-0 flex items-center justify-center">
+        <div class="container">
+          <div class="row justify-center">
+            <div class="lg:col-7 md:col-9 mt-4 text-center">
+              <h1
+                class="text-h3 lg:text-h1 text-white">
+                {{ .title | markdownify }}
+              </h1>
+              <p class="mt-2 text-lg text-white">
+                {{ .content | markdownify }}
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  {{ end }}
+
+  {{ with site.GetPage "sections/researcharea" }}
+    {{ if .Params.enable }}
+        <div class="container mt-12 mb-20">
+          <div class="row">
+            <div class="md:col-10 lg:col-8 xl:col-6 mx-auto mb-4 text-center">
+              <h2 class="mb-4">
+                {{ .Title | markdownify }}
+              </h2>
+            </div>
+            <div class="col-12">
+              <div class="swiper testimonial-slider">
+                <div class="swiper-wrapper">
+                  {{ range .Params.testimonials }}
+                    <div class="swiper-slide">
+                      <div class="bg-light dark:bg-darkmode-light rounded-lg px-7 py-10">         
+                        <div>
+                            <h3 class="h5 font-primary font-semibold mb-8">
+                              {{ .name }}
+                            </h3>
+                          {{ .content | markdownify }}
+                        </div>
+                      </div>
+                    </div>
+                  {{ end }}
+                </div>
+                <div
+                  class="testimonial-slider-pagination mt-9 flex items-center justify-center text-center"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+    {{ end }}
+  {{ end }}
+
+{{ end }}

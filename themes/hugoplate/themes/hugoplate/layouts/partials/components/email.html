@@ -1,0 +1,7 @@
+{{- if .Email -}}
+    {{- $email := .Email -}}
+    {{- $safeEmail := $email | replace "@" "&#64;" | replace "." "&#46;" -}}
+<a href="mailto:{{ $email }}">
+    {{ partial "image" (dict "Src" "/images/email.png" "Context" .Page "Alt" "Email" "Class" "mx-auto mb-6 rounded" "size" "30x30") }}
+</a>
+{{- end -}}

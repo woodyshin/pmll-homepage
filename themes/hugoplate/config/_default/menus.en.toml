@@ -1,0 +1,39 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[main]]
+name = "Professor"
+url = "/professor"
+weight = 2
+
+[[main]]
+name = "Members"
+url = "/members"
+weight = 3
+
+[[main]]
+name = "Research"
+url = "/research"
+weight = 4
+
+[[main]]
+name = "Publications"
+url = "/publications"
+weight = 5
+
+[[main]]
+name = "Contact"
+url = "/contact"
+weight = 6
+
+# footer menu
+
+[[footer]]
+name = "School of Integrated Technology @Yonsei University"
+url = "https://sit.yonsei.ac.kr/"
+weight = 1
